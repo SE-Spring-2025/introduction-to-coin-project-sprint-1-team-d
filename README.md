@@ -20,3 +20,7 @@ Changed Demo Class
 Code Passed new Tests
 Commited changes to remote repository
 Added the updated final zip to main
+
+Run demo through terminal
+Make compile
+Make Demo
