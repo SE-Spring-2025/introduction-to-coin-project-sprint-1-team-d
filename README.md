@@ -21,6 +21,6 @@ Code Passed new Tests
 Commited changes to remote repository
 Added the updated final zip to main
 
-Run demo through terminal
+Run demo through terminal -- 
 Make compile
 Make Demo
