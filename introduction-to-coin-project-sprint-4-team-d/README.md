@@ -1,5 +1,15 @@
-Created a new branch called Sprint1 Commited the coins-abc-main folder from AsUlearn to Sprint1 Cloned the directory Tested the Code Passed All the test No changes needed to the file No pull request needed
+Explored the CelsiusConverter example code to understand Java Swing GUIs.
 
-Created a new branch called Sprint2 Added the zip template from asulearn pulled file and copied on local machine Refactored Coin as an abstract class Created two-level coin hierarchy with Coin at top and Dollar, HalfDollar, Quarter, Dime, Nickel, Penny classes extending Coin. Commited Changes to remote repository Copied updated files to local machine Changed the CoinTest class Added new Concrete Test classes Changed Demo Class Code Passed new Tests Commited changes to remote repository Added the updated final zip to main
+Created a CoinCounts class and composed it inside the Coin class.
 
-Run demo through terminal -- Make compile Make Demo
+Made the CoinCounts object a protected static field inside Coin.
+
+Added a TotalCoins dashboard observer that updates when coins are created.
+
+Added a QuarterCounter dashboard observer that tracks the number of quarters.
+
+Updated concrete Coin classes to call methods on CoinCounts (e.g., incrementQuarter()).
+
+Built a Demo class that demonstrates coin creation and automatic dashboard updates.
+
+Ensured all code meets Checkstyle standards and includes unit tests.
