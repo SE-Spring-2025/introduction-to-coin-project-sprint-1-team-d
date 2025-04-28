@@ -1,26 +1,13 @@
-# introduction-to-coin-project-sprint-1-team-d
-Created a new branch called Sprint1
-Commited the coins-abc-main folder from AsUlearn to Sprint1
-Cloned the directory
-Tested the Code
-Passed All the test
-No changes needed to the file
-No pull request needed
+Created a Metallurgy hierarchy with an interface and concrete classes.
 
-Created a new branch called Sprint2
-Added the zip template from asulearn
-pulled file and copied on local machine
-Refactored Coin as an abstract class
-Created two-level coin hierarchy with Coin at top and Dollar, HalfDollar, Quarter, Dime, Nickel, Penny classes extending Coin.
-Commited Changes to remote repository
-Copied updated files to local machine
-Changed the CoinTest class
-Added new Concrete Test classes
-Changed Demo Class
-Code Passed new Tests
-Commited changes to remote repository
-Added the updated final zip to main
+Tested the concrete Metallurgy implementations (interface itself didn’t need testing).
 
-Run demo through terminal -- 
-Make compile
-Make Demo
+Refactored the Coin class to use a Metallurgy delegate and added a smelt() method.
+
+Updated the Coin constructor to accept and use a Metallurgy object from subclasses.
+
+Refactored concrete Coin classes (e.g., Penny) to pass a Metallurgy object instead of a string.
+
+Built a Demo class to show that we can create a Penny with different metallurgies.
+
+Ensured all code meets Checkstyle standards and includes unit tests
